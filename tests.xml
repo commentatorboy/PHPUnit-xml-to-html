@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" tests="2" assertions="2" errors="0" failures="1" skipped="0" time="0.000849">
-    <testcase name="testCalculationOfMean" class="AverageTest" classname="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" line="15" assertions="1" time="0.000446"/>
-    <testcase name="testCalculationOfMedian" class="AverageTest" classname="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" line="21" assertions="1" time="0.000403">
-      <failure type="PHPUnit\Framework\ExpectationFailedException">AverageTest::testCalculationOfMedian
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005946">
+    <testsuite name="Project Test Suite" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005946">
+      <testsuite name="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005946">
+        <testcase name="testCalculationOfMean" class="AverageTest" classname="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" line="15" assertions="1" time="0.004755"/>
+        <testcase name="testCalculationOfMedian" class="AverageTest" classname="AverageTest" file="/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php" line="21" assertions="1" time="0.001191">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">AverageTest::testCalculationOfMedian
 Failed asserting that 3 matches expected 5.
 
-/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php:24
-</failure>
-    </testcase>
+/home/keinto/Dokumenter/projects/testdox/PHPUnit-xml-to-html/tests/AverageTest.php:24</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
   </testsuite>
 </testsuites>

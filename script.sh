@@ -1,2 +1,2 @@
-phpunit --log-junit tests.xml tests/AverageTest.php
+vendor/bin/phpunit --log-junit tests.xml
 xsltproc TestTranslation.xsl tests.xml > output.html
